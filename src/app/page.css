@@ -1,0 +1,10 @@
+.smart-chart-wrapper {
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.smart-chart-wrapper > * {
+  width: 100% !important; /* Force all child elements to respect the container width */
+  max-width: 100% !important; /* Prevent child elements from exceeding the container width */
+}
